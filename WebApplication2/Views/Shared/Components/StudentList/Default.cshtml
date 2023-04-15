@@ -1,0 +1,9 @@
+﻿@model WebApplication2.Models.StudentListViewModel
+
+<ul class="list-group">
+    @foreach (var item in Model.Students)
+    {
+        <li class="list-group-item">Firstname : @item.Firstname</li>
+    }
+</ul>
+
